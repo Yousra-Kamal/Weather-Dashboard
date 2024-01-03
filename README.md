@@ -23,16 +23,15 @@ You can also clear your search history.
 - [x] WHEN I view future weather conditions for that city, THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 - [x] WHEN I click on a city in the search history, THEN I am again presented with current and future conditions for that city
 - [x] WHEN I click on clear, THEN the search history is cleared.
- 
 
 ## Links
 
-- [The URL of the deployed website :arrow_right:]()
+- [The URL of the deployed website :arrow_right:](https://weather-dashboard-opal.vercel.app/)
 
 ## Screenshots
 
 The following is a screenshot of the deployed website.
-![alt text]()
+![alt text](/assets/images/Screenshot.png)
 
 ## Installation
 
