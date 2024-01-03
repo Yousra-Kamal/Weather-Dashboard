@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  background-image: url("../images/background.gif");
+  background-size: cover;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #fff;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 1.75rem;
+}
+header {
+  padding: 24px;
+  background: linear-gradient(#397eac, #859dac);
+}
+h1::before {
+  content: "\1f31e";
+  margin-right: 12px;
+}
+.row {
+  margin: 0;
+  padding: 15px;
+}
+aside {
+  margin: 16px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 12px;
+  padding: 16px;
+  border: #3c6e71 solid 2px;
+  border-radius: 8px;
+}
+
+form label {
+  font-size: 25px;
+  padding: 8px;
+}
+
+#searchedCity {
+  border: none;
+  width: 100%;
+  background-color: #d9d9d9;
+  border-bottom: 2px #d9d9d9;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 16px;
+  color: #fff;
+}
+#searchedCity:focus {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #d9d9d9;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 16px;
+  color: #353535;
+}
+a {
+  display: block;
+  cursor: pointer;
+  border: none;
+  width: 75%;
+  margin-top: 16px;
+  margin-left: 50px;
+  background: linear-gradient(#397eac, #859dac);
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: wheat solid 1px;
+}
+#submit {
+  cursor: pointer;
+  border: none;
+  width: 75%;
+  margin-top: 16px;
+  background: linear-gradient(#397eac, #859dac);
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  padding: 6px 12px;
+  border: wheat solid 1px;
+}
+#history {
+  margin: 16px;
+  text-align: center;
+}
+#history button {
+  cursor: pointer;
+  border: none;
+  width: 75%;
+  margin-top: 16px;
+  background: linear-gradient(#397eac, #859dac);
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  padding: 6px 12px;
+}
+main section {
+  margin: 16px;
+}
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+#forecast article {
+  background: linear-gradient(#397eac, #859dac);
+  width: 200px;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 5px;
+}
+#forecast article p {
+  color: #fff;
+}
+
+#forecast article h3 {
+  color: #fff;
+  font-size: 20px;
+}
