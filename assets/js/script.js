@@ -18,7 +18,7 @@ function init() {
   }
 }
 
-// Gets the longitude and latitude of the city
+// Get the longitude and latitude of the city
 function getLocation(city) {
   fetch(
     `https://api.openweathermap.org/geo/1.0/direct?q=${city} 
@@ -48,7 +48,7 @@ function getCityWeather(city, lat, lon) {
     })
     .then(function (data) {
       /* console.log("DATA", data); */
-      // Clears and resets city title
+      // Clear and reset city title
       cityTitle.textContent = "";
       // city title and current date
       cityTitle.textContent = city + ": " + moment().format(" DD / MM / YYYY ");
@@ -59,7 +59,7 @@ function getCityWeather(city, lat, lon) {
 }
 // display CURRENT weather data
 function currentWeather(data) {
-  // Clears and resets element
+  // Clear and reset element
   weatherEl.textContent = "";
   var icon = data.current.weather[0].icon;
   var weatherImg = document.createElement("img");
