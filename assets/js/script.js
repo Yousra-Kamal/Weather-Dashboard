@@ -124,8 +124,8 @@ function forecastWeather(data) {
 
 //Listen for a click event on submitBtn
 //save the city into local storage
-submitBtn.addEventListener("click", function () {
-
+submitBtn.addEventListener("click", function (event) {
+  event.preventDefault();
   var cityInput = inputEl.value.trim();
   var searchHistory = JSON.parse(localStorage.getItem("searchHistory")) || [];
 
@@ -143,7 +143,7 @@ submitBtn.addEventListener("click", function () {
 
  
 historyEl.addEventListener("click", function (event) {
-   
+  event.preventDefault();
   var historyBtn = event.target;
   if (historyBtn.matches("button")) {
     console.log(historyBtn);
